@@ -16,7 +16,7 @@ function Type() {
 	_PART_INDEX++;
 	// If full sentence has been displayed then start to delete the sentence after some time
 	if(text === _CONTENT[_PART]) {
-        // if (count == 2){
+        // if (count == 3){
         //     document.getElementById("intro").style.border = "0px";
         //     return;
         // }
