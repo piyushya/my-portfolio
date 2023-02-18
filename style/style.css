@@ -137,6 +137,7 @@ nav ul li a {
 }
 
 .skillText{
+    padding-left: 10px;
     font-size: 40px;
     font-family: monospace;
     color: white;
@@ -272,7 +273,7 @@ footer .back{
 }
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 800px) {
     nav ul li .socialUrl{
         display: none;
     }
@@ -343,3 +344,14 @@ footer .back{
     }
 }
 
+@media screen and (max-width: 540px) {
+    nav ul li{
+        padding: 5px;
+    }
+    nav ul li .logo{
+        margin: 0px;
+    }
+    #intro{
+        font-size: 40px;
+    }
+}
