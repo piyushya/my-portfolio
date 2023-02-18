@@ -1,3 +1,5 @@
+window.onscroll = function() {scrollFunction()};
+
 // List of sentences
 var _CONTENT = [ "#Developer//", "#Programmer;", "#Designer~", "Piyush Yadav" ];
 // Current sentence being processed
@@ -49,3 +51,13 @@ function Delete() {
 }
 // Start the typing effect on load
 _INTERVAL_VAL = setInterval(Type, 100);
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementsByClassName("socialUrl").style.display = "none";
+	document.getElementsByClassName("contactElem").style.padding = "0px";
+  } else {
+	document.getElementsByClassName("socialUrl").style.display = "none";
+	document.getElementsByClassName("contactElem").style.padding = "0px";
+  }
+}
