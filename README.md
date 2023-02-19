@@ -1,2 +1,2 @@
 # my-portfolio
-it is not responsive yet works only on a wider screen (laptop, desktop)
+An attempt at making my presence on the web
